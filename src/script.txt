@@ -7,33 +7,9 @@ const SPOTIFY_TOKEN = 'SPOTIFY_TOKEN_API';
 
 // Daftar album
 const albums = [
-  "5oy9fXcCXxZZVd0r2ABIJ2", 
+  "SPOTIFY_ALBUM_ID", 
   "5PXwOJuiro3ilsW6Y86cZV",
-  "2n2LvBVabXSthRaLEDGGSe",
-  "4nMiZ9uS1DCtHZ2wqS1wRJ",
-  "4jt8sLOJrMDMM8XLuDfCGz",
-  "66LefdTRwCA7Mj7LCcCGk3",
   "0f743tpBG9DquanCiyBASU",
-  "0qZVILCnti9c6ux3QkVOFa",
-  "4UwFbGhMZA4LZqqAnt8LCB",
-  "7rk8Dy3J1dbrkbSEOVIB3p",
-  "5d49jZ63zy8W5xL32PYE6i",
-  "4JMjkt32NZ9VnPj68Mz7Ra",
-  "4alm7dlAhGRBMb21F49YC8",
-  "2P7SmTlPHLZxnvQZOMIGyr",
-  "6GEWGyHgEn7lGPXXiYJAmF",
-  "7DRIifRCDdeXVzR5Jdxw2i",
-  "26mat5fAFSQnto8pFSQHbb",
-  "2rdPLD1XUQ6iN1KeQ0wrzu",
-  "53oO5U9qV6YInFNmg6mbnV",
-  "1allU3bi1l9t6yUBfjQt3S",
-  "2S4UIiVgsFwV2e1vElIMjq",
-  "3CPFONtVbumePCezLP4T3F",
-  "3Zw9PiPgAvNtNUnusZAcva",
-  "4sZmCbnqGhDr9oOl2h0J8T",
-  "0mSbKAlNwSFHlKL4i3OIsn",
-  "22jmHd52fUk6hDe8S3Et0T",
-  "4B5efqHkeq0UaDGx8nYOuf",
   "4jodtP1gXnHd8aU4hQiXHL"
 ];
 
