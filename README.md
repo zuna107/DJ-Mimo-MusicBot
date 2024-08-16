@@ -1,5 +1,3 @@
-<center><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=DJMimo&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=gradient" /></center>
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -14,9 +12,9 @@
     It is a discord music bot which can play HoYoMiX song 24/7 &  more functions of DJ Mimo radio bot
     <br />
     <br />
-    <a href="https://github.com/zuna107/DJ-Mimo/issues">Report Bug</a>
+    <a href="https://github.com/zuna107/DJ-Mimo-MusicBot/issues">Report Bug</a>
     ·
-    <a href="https://github.com/zuna107/DJ-Mimo/issues">Request Feature</a>
+    <a href="https://github.com/zuna107/DJ-Mimo-MusicBot/issues">Request Feature</a>
   </p>
 </p>
 <!-- ABOUT THE PROJECT -->
