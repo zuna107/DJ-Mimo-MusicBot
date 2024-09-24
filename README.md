@@ -50,9 +50,9 @@ nodemon
 ## 🖼️ Screenshots
 <br />
 <p align="center">
-    <img src="image/imadsge.png">
-    <img src="image/imaged.png">
-    <img src="image/ismage.png">
+    <img align="left" width="300" height="300" src="image/imadsge.png">
+    <img align="left" width="300" height="300" src="image/imaged.png">
+    <img align="left" width="300" height="300" src="image/ismage.png">
 </p>
 
 <br>
