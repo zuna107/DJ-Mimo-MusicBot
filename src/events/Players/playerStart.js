@@ -1,6 +1,6 @@
 const { MessageEmbed, Client } = require('discord.js');
 const { convertTime } = require('../../utils/convert.js');
-const db = require("../../schema/station"); // Updated to use the correct schema
+const db = require("../../schema/station");
 const fs = require('fs');
 const path = require('path');
 
