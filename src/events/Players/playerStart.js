@@ -23,7 +23,6 @@ module.exports = {
         let stationData = await db.findOne({ Guild: guild.id });
         const station = stationData ? stationData.Radio : "Default Station";
 
-        // Determine the correct JSON file based on the current station
         const songsPath = {
             "Genshin Impact": path.join(__dirname, '../../songs/genshin.json'),
             "Honkai: Star Rail": path.join(__dirname, '../../songs/hsr.json'),
@@ -35,7 +34,6 @@ module.exports = {
 
         const songs = JSON.parse(fs.readFileSync(songFile, 'utf8'));
 
-        // Mencari album yang sesuai berdasarkan track URL
         let albumName = 'Spotify Album';
         Object.entries(songs.words).forEach(([name, trackUrls]) => {
             if (trackUrls.includes(track.uri)) {
@@ -49,11 +47,11 @@ module.exports = {
             .setURL(track.uri)
             .setColor(6982642)
             .setAuthor({
-                name: `${albumName}`, // Set the author to the album name
+                name: `${albumName}`,
             })
             .setImage(track.thumbnail ? track.thumbnail : '');
 
-        const targetChannel = guild.channels.cache.get('1269229024442454086'); // Updated channel ID
+        const targetChannel = guild.channels.cache.get('1269229024442454086'); 
         if (targetChannel) {
             await targetChannel.send({ embeds: [embed] });
         }
