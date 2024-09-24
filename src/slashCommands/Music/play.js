@@ -63,7 +63,7 @@ module.exports = {
       deaf: true,
     });
 
-    const randomSongs = getRandomSongs(songs.words, 10); // Memilih 10 lagu secara acak
+    const randomSongs = getRandomSongs(songs.words, 10); 
 
     for (const url of randomSongs) {
       const result = await player.search(url, { requester: interaction.user });
@@ -78,17 +78,15 @@ module.exports = {
 
     // Debugging loop setting
     try {
-      await player.setLoop('queue'); // Pastikan queue diatur untuk loop
+      await player.setLoop('queue'); 
       console.log('Queue loop has been set.');
     } catch (error) {
       console.error('Error setting queue loop:', error);
     }
 
-    // Ensure player stays active
     client.manager.on('playerEmpty', async (player) => {
       console.log('Queue is empty, restarting...');
       
-      // Re-add the random songs to the queue
       const shuffled = randomSongs.sort(() => 0.5 - Math.random());
       for (const url of shuffled) {
         const result = await player.search(url, { requester: interaction.user });
@@ -99,7 +97,6 @@ module.exports = {
         }
       }
 
-      // Re-start the player
       if (!player.playing && !player.paused) player.play();
       console.log('Queue restarted.');
     });
