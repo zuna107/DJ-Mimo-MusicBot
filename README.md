@@ -51,7 +51,7 @@ nodemon
 <br />
 <p align="center">
     <img align="left" width="300" height="500" src="image/imadsge.png">
-    <img align="left" width="300" height="500" src="image/imaged.png">
+    <img align="left" width="300" height="400" src="image/imaged.png">
     <img align="left" width="300" height="500" src="image/ismage.png">
 </p>
 
