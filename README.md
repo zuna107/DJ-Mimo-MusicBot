@@ -54,9 +54,9 @@ nodemon
     <img align="left" width="300" height="200" src="image/imaged.png">
     <img align="left" width="300" height="400" src="image/ismage.png">
 </p>
-
+<br /><br /><br />
 <br>
-_____
+
 
 # Note
 Hi, this is zetsuna as a Bot Assistant and Moderator on the HoYoLAB Discord Server: [Lab ID Corner].
