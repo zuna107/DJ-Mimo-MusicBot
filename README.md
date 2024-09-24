@@ -56,7 +56,7 @@ nodemon
 </p>
 
 <br>
-<br/>
+_____
 
 # Note
 Hi, this is zetsuna as a Bot Assistant and Moderator on the HoYoLAB Discord Server: [Lab ID Corner].
