@@ -50,11 +50,9 @@ nodemon
 ## 🖼️ Screenshots
 <br />
 <p align="center">
-  <a href="https://github.com/diwasatreya/Lofi-Radio">
-    <img src="https://media.discordapp.net/attachments/1273631032305913878/1273971166088007782/image.png?ex=66c08d9b&is=66bf3c1b&hm=b2c1e9b8e815a63ff17bb66dea4ec5dff87aff0547873ed822b1da0cc0e7d688&=&format=webp&quality=lossless&width=533&height=677">
-    <img src="https://media.discordapp.net/attachments/1273631032305913878/1273971873897513130/image.png?ex=66c08e43&is=66bf3cc3&hm=e6ce135c26c2b0a3802e6399ed98ba58054a87a5eff00a3b679e0acc5bc69129&=&format=webp&quality=lossless&width=1400&height=647">
-    <img src="https://media.discordapp.net/attachments/1273631032305913878/1273972356817223743/image.png?ex=66c08eb7&is=66bf3d37&hm=1f3b869f30c3586479300d112434780b35a40b6c9b3465d4aad3893fc69be058&=&format=webp&quality=lossless&width=372&height=677">
-  </a>
+    <img src="image/imadsge.png">
+    <img src="image/imaged.png">
+    <img src="image/ismage.png">
 </p>
 
 <br>
