@@ -47,6 +47,12 @@ or
 nodemon
 ```
 
+## 📻 How to setup
+1. Edit the file name .env.example to `.env` and populate the file with your Bot `TOKEN` and Mongo DB `MONGO_URI`.
+2. Go to src/config.js and change or add `ownerID`, `SpotifyID`, `SpotifySecret`.
+3. Go to src/events/Players/playerStart.js and change `targetChannel` with your log channel ID, for loging music now playing embeds.
+
+
 ## 🖼️ Screenshots
 <br />
 <p align="center">
@@ -55,7 +61,7 @@ nodemon
     <img align="left" width="300" height="400" src="image/ismage.png"><br />
 </p>
 
-<br>
+<br><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 
 # Note
